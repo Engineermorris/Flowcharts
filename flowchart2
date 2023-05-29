@@ -1,6 +1,6 @@
 ```mermaid
 graph TD;
-start
+ start--> Accept three numbers from user (6,7,8) 
 Accept three numbers from user (6,7,8) 
 Accept three numbers from user (6,7,8) > If 6<7 then go to step 4 else go to step 8
 If 6<8 then go to step 5 else go to step 7
