@@ -2,13 +2,13 @@
 graph TD;
    Start 
    accept_three_numbers_as_input
-   set all as unchecked 
-   start sorting all numbers from largest
-   if first is greater that second and third number, set first number as large and checked
-   if not, check first if the number is less than both second and third numbers, if so set first number as small and checked
-   store result
-   check if there is next number
-   repeat from step 4
-   if no next number, output result and End
+   set_all_as_unchecked 
+   start_sorting_all_numbers_from_largest
+   if_first_is_greater_than_second_and_third_number,_set_first_number_as_large_and_checked
+   if_not,_check_first_if_the_number_is_less_than_both_second_and_third_numbers,_if_so_set_first_number_as_small_and_checked
+   store_result
+   check_if_there_is_next_number
+   repeat_from_step_4
+   if_no_next_number,_output_result-->End
    END-->Start
 ```
