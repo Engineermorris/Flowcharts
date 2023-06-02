@@ -4,11 +4,11 @@ graph TD;
    accept_three_numbers_as_input
    set_all_as_unchecked 
    start_sorting_all_numbers_from_largest
-   if_first_is_greater_than_second_and_third_number,_set_first_number_as_large_and_checked
-   if_not,_check_first_if_the_number_is_less_than_both_second_and_third_numbers,_if_so_set_first_number_as_small_and_checked
+   if_first_number_is_greater_than_second_and_third_number_set_first_number_as_large_and_checked
+   if_not_check_first_if_the_first_number_is_less_than_both_second_and_third_numbers_if_so_set_first_number_as_small_and_checked
    store_result
    check_if_there_is_next_number
    repeat_from_step_4
-   if_no_next_number,_output_result-->End
+   if_no_next_number_output_result-->End
    END-->Start
 ```
