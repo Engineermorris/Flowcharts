@@ -1,0 +1,8 @@
+```mermaid
+ graph TD;
+start--> Accept three numbers from user (6,7,-20)
+The_sum_of_the_first_number_and_the_second__number_is_calculated_as_6_+_7_=_13–>
+mark_this_as_the_first_sum–->the_sum_of_the_first_sum_and_the_second_number_is_calculated_as_13_+-20_=_-_7–>
+if_a_negative_number_is_encounterd_stop adding numbers and write out the final_result–>End
+End-->start
+```
